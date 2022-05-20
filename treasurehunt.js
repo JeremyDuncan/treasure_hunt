@@ -11,7 +11,7 @@ onload = function () {
     chest = Math.floor(Math.random() * 24);
     bomb = Math.floor(Math.random() * 24);
   }
-  document.getElementById("counter").innerHTML = 10 - clickCounter;
+  document.getElementById("counter").innerHTML = 15 - clickCounter;
 };
 
 let clickCounter = 0;
@@ -19,7 +19,7 @@ let clickCounter = 0;
 treasure = (num) => {
   // If user has not clicked on selection before,
   // save selection, then continue function
-  if (clickedOn.includes(num) === false) {
+  if (clickedOn.includes(num) === false && youWin === false && gameOver === false) {
     clickedOn.push(num);
 
     if (num === chest) {
@@ -33,10 +33,18 @@ treasure = (num) => {
     }
 
     clickCounter++;
-    if (clickCounter > 9) {
+    if (clickCounter > 14) {
       gameOver = true;
-      alert("Game over!");
+    }
+    if (gameOver) {
+      alert("Game Over!!!")
+    }
+    if (youWin) {
+      alert("You Win!!!")
     }
   }
-  document.getElementById("counter").innerHTML = 10 - clickCounter;
+
+
+
+  document.getElementById("counter").innerHTML = 15 - clickCounter;
 };

@@ -114,6 +114,8 @@ footer {
   box-shadow: 2px 2px 8px 2px black;
 }
 
+
+/* ==== Responsive CSS Styles ==== */
 @media (max-width: 550px) {
   .footer-box {
     flex-direction: column;
@@ -136,13 +138,10 @@ footer {
     min-width: 1em;
     height: 4em;
     text-align: center;
-  
   }
-
   img {
     width: 200px;
   }
-  
   .sub-header {
     margin: auto;
     border: 3px solid rgb(72, 56, 115);
@@ -151,7 +150,6 @@ footer {
   table {
     width: 100%;
   }
-
   .rules {
     font-size: .9em;
   }
