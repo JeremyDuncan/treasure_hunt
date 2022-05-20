@@ -16,8 +16,8 @@
   <header> 
     <h1>Treasure Hunt Game<h1>
     <div class="sub-header">
-      <img src="http://placehold.it/" width="300px">
-
+      <img class="round-corners" src="./images/treasure-heading.jpg" width="500px">
+      <p>Click on the ? below to find treasure!</p> 
     </div>
   </header>
   <div>
@@ -28,7 +28,7 @@
     </ol>
   </div>
 
-  <div>
+  <div class="table">
     <table>
       <tr>
         <td id="0" onclick="treasure(0)">?</td>
@@ -70,14 +70,14 @@
   <div> 
     Remaining Clicks: <span id="counter"></span>
   </div>
-<div>
+<div class="but">
   <button type="button" onclick="location.reload(), alert(`bomb: ${bomb} chest: ${chest}`)">Restart</button>
 </div>
   <footer> 
-    <div>
+    <div class="name">
       Jeremy Duncan &copy; 2022
     </div>
-    <div>
+    <div class="link">
       <a  onclick="alert(`bomb: ${bomb} chest: ${chest}`)" href="#">external link</a>
     </div>
   </footer>
