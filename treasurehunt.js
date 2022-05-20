@@ -23,13 +23,13 @@ treasure = (num) => {
     clickedOn.push(num);
 
     if (num === chest) {
-      document.getElementById(num).innerHTML = "&#x1f308";
+      document.getElementById(num).innerHTML = "<i class='fa-solid fa-gem fa-3x'></i>";
       youWin = true;
     } else if (num === bomb) {
-      document.getElementById(num).innerHTML = "&#x2620";
+      document.getElementById(num).innerHTML = "<i class='fa-solid fa-bomb fa-3x'></i>";
       gameOver = true;
     } else {
-      document.getElementById(num).innerHTML = "&#x1f332";
+      document.getElementById(num).innerHTML = "<i class='fa-regular fa-circle-check fa-3x'></i>";
     }
 
     clickCounter++;
