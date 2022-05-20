@@ -11,4 +11,36 @@
 
 .container {
   display: flex;
+  flex-flow: column;
+}
+
+.header {
+  margin: auto;
+
+}
+.sub-header {
+  margin: auto;
+}
+
+.table {
+  margin: auto
+}
+.but {
+  margin: auto
+}
+
+.footer {
+  margin: auto
+}
+.name {
+  margin: auto
+}
+.link {
+  margin: auto
+}
+
+.round-corners {
+  border-radius: 20px;
+  border: 1px solid rgb(67, 38, 11);
+  box-shadow: 2px 2px 2px 2px black;
 }
