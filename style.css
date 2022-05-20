@@ -122,7 +122,6 @@ footer {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid rgb(220, 10, 10);
     gap: 5px;
   }
   .board-pad {
@@ -138,7 +137,6 @@ footer {
   }
   .sub-header {
     margin: auto;
-    border: 3px solid rgb(72, 56, 115);
     font-size: 1.2em;
   }
   table {
