@@ -1,6 +1,7 @@
 * {
   font-family: 'Macondo', cursive;
 }
+
 .background-image {
   background-image: url('./images/sand-background.jpg');
   background-repeat: no-repeat;
@@ -12,31 +13,59 @@
 .container {
   display: flex;
   flex-flow: column;
+  justify-content: center;
+  border: 5px solid rgb(220, 10, 10);
 }
 
-.header {
+header {
   margin: auto;
-
+  border: 5px solid rgb(17, 10, 220);
+  text-align: center;
 }
+
 .sub-header {
   margin: auto;
+  border: 1px solid rgb(67, 38, 11);
+}
+
+.image {
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
+}
+
+.rules {
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
 }
 
 .table {
-  margin: auto
-}
-.but {
-  margin: auto
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
 }
 
-.footer {
-  margin: auto
+.but {
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
 }
+
+.click-counter {
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
+}
+
+footer {
+  margin: auto;
+  border: 5px solid rgb(220, 10, 10);
+}
+
 .name {
-  margin: auto
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
 }
+
 .link {
-  margin: auto
+  margin: auto;
+  border: 1px solid rgb(67, 38, 11);
 }
 
 .round-corners {
