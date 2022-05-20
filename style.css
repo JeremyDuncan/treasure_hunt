@@ -153,4 +153,8 @@ footer {
     gap: 20px;
     background-color: rgb(173, 173, 196);
   }
+  * {
+    text-shadow: 1px 1px 3px rgb(20, 19, 19);
+    font-weight: 900;
+  }
 }
