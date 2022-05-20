@@ -11,51 +11,82 @@
 }
 
 .container {
+  width: 100%;
   display: flex;
+  margin: auto;
   flex-flow: column;
   justify-content: center;
+  align-items: center;
   border: 5px solid rgb(220, 10, 10);
+  gap: 10px;
 }
 
 header {
-  margin: auto;
+  width: 100%;
+  
   border: 5px solid rgb(17, 10, 220);
   text-align: center;
+  align-items: center;
+  background-color: rgb(173, 173, 196);
 }
 
 .sub-header {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
+  border: 3px solid rgb(72, 56, 115);
+  font-size: 1.5em;
 }
 
 .image {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
+  border: 3px solid rgb(67, 38, 11);
 }
 
 .rules {
   margin: auto;
   border: 1px solid rgb(67, 38, 11);
+  font-size: 1em;
+  font-weight: bold;
 }
-
+ol {
+  margin-top: 0px;
+}
 .table {
   margin: auto;
   border: 1px solid rgb(67, 38, 11);
+  background-color: rgb(43, 31, 31);
+}
+
+.board-pad {
+  padding: 35px;
+  border: 1px solid rgb(154, 83, 18);
+  background-color: rgba(170, 231, 251, 0.783);
+  width: 60px;
+  height: 60px;
+  text-align: center;
+
 }
 
 .but {
   margin: auto;
   border: 1px solid rgb(67, 38, 11);
 }
+button {
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 2px black;
 
+}
 .click-counter {
   margin: auto;
   border: 1px solid rgb(67, 38, 11);
 }
 
 footer {
-  margin: auto;
+  display: flex;
+  width: 100%;
+
   border: 5px solid rgb(220, 10, 10);
+  gap: 50px;
+  background-color: rgb(173, 173, 196);
 }
 
 .name {
@@ -71,5 +102,5 @@ footer {
 .round-corners {
   border-radius: 20px;
   border: 1px solid rgb(67, 38, 11);
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 8px 2px black;
 }
