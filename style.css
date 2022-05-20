@@ -22,7 +22,6 @@ body {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border: 5px solid rgb(220, 10, 10);
   gap: 10px;
 }
 
@@ -36,18 +35,15 @@ header {
 
 .sub-header {
   margin: auto;
-  border: 3px solid rgb(72, 56, 115);
   font-size: 1.5em;
 }
 
 .image {
   margin: auto;
-  border: 3px solid rgb(67, 38, 11);
 }
 
 .rules {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
   font-size: 1em;
   font-weight: bold;
 }
@@ -72,7 +68,6 @@ ol {
 
 .but {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
 }
 button {
   border-radius: 10px;
@@ -100,12 +95,10 @@ footer {
 
 .name {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
 }
 
 .link {
   margin: auto;
-  border: 1px solid rgb(67, 38, 11);
 }
 
 .round-corners {
