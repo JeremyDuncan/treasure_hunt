@@ -62,15 +62,18 @@
       </tr>
     </table>
   </div>
+  <div> 
+    Remaining Clicks: <span id="counter"></span>
+  </div>
 <div>
-  <button type="button" onclick="location.reload()">Restart</button>
+  <button type="button" onclick="location.reload(), alert(`bomb: ${bomb} chest: ${chest}`)">Restart</button>
 </div>
   <footer> 
     <div>
       Jeremy Duncan &copy; 2022
     </div>
     <div>
-      <a href="#">external link</a>
+      <a  onclick="alert(`bomb: ${bomb} chest: ${chest}`)" href="#">external link</a>
     </div>
   </footer>
 
