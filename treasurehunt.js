@@ -38,5 +38,7 @@ treasure = (num) => {
       alert("Game over!")
     }
   }
+  document.getElementById("counter").innerHTML = 10 - clickCounter
+
 }
 
