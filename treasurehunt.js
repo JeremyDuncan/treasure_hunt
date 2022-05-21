@@ -29,7 +29,8 @@ treasure = (num) => {
       document.getElementById(num).innerHTML = "<i class='fa-solid fa-bomb fa-3x'></i>";
       gameOver = true;
     } else {
-      document.getElementById(num).innerHTML = "<i class='fa-regular fa-circle-check fa-3x'></i>";
+      document.getElementById(num).innerHTML = "<i class='fa-regular fa-circle-check fa-3x green'></i>";
+
     }
 
     clickCounter++;

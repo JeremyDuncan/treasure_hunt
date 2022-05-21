@@ -7,6 +7,11 @@ body {
   margin: auto;
 }
 
+.green {
+  background-color: green;
+  width: 100%;
+  border-radius: 90px;
+}
 .background-image {
   background-image: url('./images/sand-background.jpg');
   background-repeat: repeat;
