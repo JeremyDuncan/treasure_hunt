@@ -30,7 +30,6 @@ treasure = (num) => {
       gameOver = true;
     } else {
       document.getElementById(num).innerHTML = "<i class='fa-regular fa-circle-check fa-3x green'></i>";
-
     }
 
     clickCounter++;
@@ -38,10 +37,10 @@ treasure = (num) => {
       gameOver = true;
     }
     if (gameOver) {
-      alert("Game Over!!!")
+      document.getElementById("announce").innerHTML = "<span class='announcement'>YOU LOSE!</span>";
     }
     if (youWin) {
-      alert("You Win!!!")
+      document.getElementById("announce").innerHTML =  "<span class='announcement'>YOU WIN!</span>";
     }
   }
 
