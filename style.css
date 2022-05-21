@@ -1,5 +1,4 @@
 * {
-  font-family: 'Macondo', cursive;
   text-shadow: 3px 3px 5px rgb(44, 44, 93);
 }
 body {
@@ -41,6 +40,7 @@ body {
 }
 
 header {
+  font-family: 'Macondo', cursive;
   width: 100%;
   border-bottom: 3px solid rgb(51, 51, 51);
   text-align: center;
@@ -209,5 +209,6 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
   }
 }
