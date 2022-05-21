@@ -40,7 +40,7 @@ treasure = (num) => {
       document.getElementById("announce").innerHTML = "<span class='announcement'>YOU LOSE!</span>";
     }
     if (youWin) {
-      document.getElementById("announce").innerHTML =  "<span class='announcement'>YOU WIN!</span>";
+      document.getElementById("announce").innerHTML = "<span class='announcement'>YOU WIN!</span>";
     }
   }
 
