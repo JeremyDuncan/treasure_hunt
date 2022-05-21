@@ -37,10 +37,10 @@ treasure = (num) => {
       gameOver = true;
     }
     if (gameOver) {
-      document.getElementById("announce").innerHTML = "<span class='announcement'>YOU LOSE!</span>";
+      document.getElementById("announce").innerHTML = "<span class='fa-solid fa-bomb fa-3x announcement '> <br/>YOU LOSE!</span>";
     }
     if (youWin) {
-      document.getElementById("announce").innerHTML = "<span class='announcement'>YOU WIN!</span>";
+      document.getElementById("announce").innerHTML = "<span class='fa-solid fa-gem fa-3x announcement'><br/>YOU WIN!</span>";
     }
   }
 
