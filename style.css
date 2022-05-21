@@ -6,11 +6,21 @@ body {
   display: flex;
   margin: auto;
 }
-
-.green {
-  background-color: green;
-  width: 100%;
-  border-radius: 90px;
+.fa-question {
+  color: rgb(67, 65, 65);
+  text-shadow: 3px 3px 5px rgb(3, 3, 62);
+}
+.fa-bomb {
+  color: red;
+  text-shadow: 3px 3px 5px rgb(3, 3, 62);
+}
+.fa-circle-check {
+  color: green;
+  text-shadow: 3px 3px 5px rgb(3, 3, 62);
+} 
+.fa-gem {
+  color: purple;
+  text-shadow: 3px 3px 5px rgb(3, 3, 62);
 }
 .background-image {
   background-image: url('./images/sand-background.jpg');
