@@ -135,7 +135,7 @@ footer {
   z-index: 1;
   margin-top: 300px;
   margin-left: -280px;
-  border: 5px solid rgb(255, 255, 255);
+  border: 5px solid rgb(51, 51, 51);
   background-color: rgb(173, 173, 196);
   border-radius: 20px;
   width: 550px;
@@ -148,6 +148,28 @@ footer {
   animation: shake 1s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+}
+.retry {
+  position:absolute;
+  z-index: 2;
+  margin-top: 530px;
+  margin-left: -90px;
+  border: 5px solid rgb(51, 51, 51);
+  background-color: rgb(173, 173, 196);
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.retry:hover {
+  background-color: rgb(6, 94, 121);
+}
+.retry:active {
+  background-color: white;
 }
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -217,7 +239,7 @@ footer {
     z-index: 1;
     margin-top: 150px;
     margin-left: -180px;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(51, 51, 51);
     background-color: rgb(173, 173, 196);
     border-radius: 20px;
     width: 350px;
@@ -227,5 +249,26 @@ footer {
     align-items: center;
     justify-content: center;
     padding-top: 20px;
+  }
+
+  .retry {
+    position:absolute;
+    z-index: 2;
+    margin-top: 345px;
+    margin-left: -70px;
+    border: 5px solid rgb(51, 51, 51);
+    background-color: rgb(173, 173, 196);
+    border-radius: 20px;
+    width: 100px;
+    height: 25px;
+    padding-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .retry:active {
+    background-color: white;
   }
 }
