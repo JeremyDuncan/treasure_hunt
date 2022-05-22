@@ -5,9 +5,9 @@ A treasure hunt game I made using HTML, Javascript, and CSS.
 - You lose if you click counter reaches 0.
 #
 <div>
-<img src="./images/game-screenshot.png" width="350px">
-<img src="./images/you-lose-screenshot.png" width="350px">
-<img src="./images/you-win-screenshot.png" width="350px">
+<img src="./images/game-screenshot.png" width="290px">
+<img src="./images/you-lose-screenshot.png" width="290px">
+<img src="./images/you-win-screenshot.png" width="290px">
 </div>
 
 #
