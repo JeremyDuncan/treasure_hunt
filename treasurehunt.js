@@ -17,19 +17,33 @@ onload = function () {
 let clickCounter = 0;
 
 treasure = (num) => {
-  // If user has not clicked on selection before,
+  // If player has not clicked on selection before And
+  // If player has not won and has not lost,
   // save selection, then continue function
-  if (clickedOn.includes(num) === false && youWin === false && gameOver === false) {
+  if (
+    clickedOn.includes(num) === false &&
+    youWin === false &&
+    gameOver === false
+  ) {
+    // Add button number to clickedOn array
     clickedOn.push(num);
 
+    // If number selected matches chest number,
+    // player wins
     if (num === chest) {
-      document.getElementById(num).innerHTML = "<i class='fa-solid fa-gem fa-3x'></i>";
+      document.getElementById(num).innerHTML =
+        "<i class='fa-solid fa-gem fa-3x'></i>";
       youWin = true;
+    // If number selected matches bomb number,
+    // player loses  
     } else if (num === bomb) {
-      document.getElementById(num).innerHTML = "<i class='fa-solid fa-bomb fa-3x'></i>";
+      document.getElementById(num).innerHTML =
+        "<i class='fa-solid fa-bomb fa-3x'></i>";
       gameOver = true;
+    // Else box = checkmark
     } else {
-      document.getElementById(num).innerHTML = "<i class='fa-regular fa-circle-check fa-3x green'></i>";
+      document.getElementById(num).innerHTML =
+        "<i class='fa-regular fa-circle-check fa-3x green'></i>";
     }
 
     clickCounter++;
@@ -37,15 +51,14 @@ treasure = (num) => {
       gameOver = true;
     }
     if (gameOver) {
-      document.getElementById("announce").innerHTML = "<span class='fa-solid fa-bomb fa-3x announcement'><br/>YOU LOSE!</span><span onclick='location.reload()' class='retry'>RETRY</span>";
-   
+      document.getElementById("announce").innerHTML =
+        "<span class='fa-solid fa-bomb fa-3x announcement'><br/>YOU LOSE!</span><span onclick='location.reload()' class='retry'>RETRY</span>";
     }
     if (youWin) {
-      document.getElementById("announce").innerHTML = "<span class='fa-solid fa-gem fa-3x announcement'><br/>YOU WIN!</span><span onclick='location.reload()' class='retry'>RETRY</span>";
+      document.getElementById("announce").innerHTML =
+        "<span class='fa-solid fa-gem fa-3x announcement'><br/>YOU WIN!</span><span onclick='location.reload()' class='retry'>RETRY</span>";
     }
   }
-
-
 
   document.getElementById("counter").innerHTML = 15 - clickCounter;
 };
