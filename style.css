@@ -148,6 +148,7 @@ footer {
   animation: shake 1s infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+  box-shadow: 2px 2px 8px 2px black;
 }
 .retry {
   position:absolute;
@@ -164,6 +165,7 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
+  box-shadow: 2px 2px 8px 2px black;
 }
 .retry:hover {
   background-color: rgb(6, 94, 121);
@@ -266,9 +268,11 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
+    box-shadow: 2px 2px 8px 2px black;
   }
 
   .retry:active {
     background-color: white;
+    box-shadow: 2px 2px 8px 2px black;
   }
 }
