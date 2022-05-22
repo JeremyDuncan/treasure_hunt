@@ -45,7 +45,7 @@ treasure = (num) => {
       document.getElementById(num).innerHTML =
         "<i class='fa-regular fa-circle-check fa-3x green'></i>";
     }
-
+    // Adds to counter, gameOver if counter reaches 15
     clickCounter++;
     if (clickCounter > 14) {
       gameOver = true;

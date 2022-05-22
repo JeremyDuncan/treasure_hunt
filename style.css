@@ -239,7 +239,7 @@ footer {
   .announcement {
     position:absolute;
     z-index: 1;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: -180px;
     border: 5px solid rgb(51, 51, 51);
     background-color: rgb(173, 173, 196);
@@ -256,8 +256,8 @@ footer {
   .retry {
     position:absolute;
     z-index: 2;
-    margin-top: 345px;
-    margin-left: -70px;
+    margin-top: 285px;
+    margin-left: -65px;
     border: 5px solid rgb(51, 51, 51);
     background-color: rgb(173, 173, 196);
     border-radius: 20px;
