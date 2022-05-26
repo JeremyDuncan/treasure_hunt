@@ -22,7 +22,7 @@ body {
   text-shadow: 3px 3px 5px rgb(3, 3, 62);
 }
 .background-image {
-  background-image: url('./images/sand-background.jpg');
+  background-image: url('./images/sand-background.webp');
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
