@@ -11,8 +11,8 @@ onload = function () {
   clickedOn = [];
 
   while (chest == bomb) {
-    chest = Math.floor(Math.random() * 24);
-    bomb = Math.floor(Math.random() * 24);
+    chest = Math.floor(Math.random() * 25);
+    bomb = Math.floor(Math.random() * 25);
   }
   document.getElementById("counter").innerHTML = 15 - clickCounter;
 };
